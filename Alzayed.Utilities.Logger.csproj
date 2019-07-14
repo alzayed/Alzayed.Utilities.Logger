@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.2;netcoreapp2.1;netcoreapp2.0;net472;net471;net462;net461;</TargetFrameworks>
+    <Authors>Abdulrazzaq Alzayed</Authors>
+    <Company>Alzayed</Company>
+    <Description>Useful logging mechanism</Description>
+    <Copyright>Abdulrazzaq Alzayed ©2019</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://lh3.googleusercontent.com/1sXbmt1wPBdRXr_oL9dmyWHXJXdaHy_bnlSBMal2w3ttSl7A3WgZZV-Aj0JtUixFHNemwHjNzRyG4E8l45x53FiUsKihKjO5ggPI_GEkCmkV7EcE9W_hQlD2N71HNw4La8U26_5fyAsP5Dl8nQwaG0CeFFIa4dYHAFQVuXFtdVoM5JVieyJIEayL5PrF6pqY9VIJvkmCl7i_M4t4QX6YaJYheX-WZfY2wEvffKYWKpb0-V2fvr7ADxjagudor8JuQ9Vt7HKDg5uOIEppsKpvLg0S3398IPx26Z5hIyGRdb_wuMwbLRaiqudO7XQr582TX5r5_caMnvZ3YWT8fj3yzuAN8Wa2uNTVY0xQCvHU71oiB_Gl_eas7ET1FsjOlhXQjRzOEcnxC8Ii7668zoHaGpvGFhCYyU41xNtn8NINmgpoEo3qQ6Nrd8M9BsYiJCxnI0SVAHzm3LF3RWNBlLK0HmQe93NEkXmrURsYOvmVepEIJnG2XU8aaRhOFc7TdlzCS7Ia2MKJSJt33-OnK1xyVGaV9hWj4rRdS8hDZplbJRQWFyL9S2ObzaIWUDr2lTrnkOi0aUp0cM63bGRBrAHxbTqB0XzWmsWFwuV663oin_bJ1vms3By5qaoqx8745e43VBgIUOdpxDfQYiC3baKSa8yYuTPsywk=w82-h72-no</PackageIconUrl>
+    <PackageLicenseFile>AlzayedLicense.txt</PackageLicenseFile>
+    <SignAssembly>false</SignAssembly>
+    <Version>1.1.4</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="AlzayedLicense.txt" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AlzayedLicense.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
